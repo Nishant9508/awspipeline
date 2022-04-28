@@ -17,7 +17,7 @@ It's purpose is to build, stage and deploy the changes in the server whenever th
 ![image](https://user-images.githubusercontent.com/63492805/165736868-4e2d92ab-1407-49ab-9605-0a96666f6b3f.png)
 
 
--While creating the instances we also create a new key pair which is used to login into different terminal for each instance using PuTTY.
+- While creating the instances we also create a new key pair which is used to login into different terminal for each instance using PuTTY.
 
 ![image](https://user-images.githubusercontent.com/63492805/165737069-e75566dc-8432-4ddf-b302-7bcdb72bfda8.png)
 
