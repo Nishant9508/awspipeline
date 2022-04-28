@@ -2,7 +2,7 @@
 This pipeline is created with the help of AWS, Jenkins, Git, Github and Docker. 
 It's purpose is to build, stage and deploy the changes in the server whenever they are pushed into Github repository.
 
-How it works?
+**How it works?**
 - Developer commits his code in his local git reposiory and pushes it into central repository which triggers the Jenkins. 
 - Jenkins runs the first build "git-job" which copies the repository items to the staging instance and uses docker to build the image out of dockerfile which was already pushed into the central repository.
 - Jenkins runs the second build "build website" which executes the commands which have already been specified. The commands create a custom image from Dockerfile using Docker and then host the website on the apache server.
@@ -10,7 +10,7 @@ How it works?
 - So this whole processs become automatic saving lots of time and efforts by checking at each commit.
 
 
-Working : 
+**Working :** 
 
 - We start by creating 3 ubuntu instances in the AWS which are going to serve as master, staging and production.
 
